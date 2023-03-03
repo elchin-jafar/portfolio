@@ -1,0 +1,21 @@
+.project-button {
+    color: #333;
+    font-size: 2rem;
+    font-weight: 600;
+    background-color: rgb(250, 207, 15);
+    border: 1px solid transparent;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+    cursor: pointer;
+    padding: 1.5rem 8rem;
+    letter-spacing: 1px;
+    line-height: 3rem;
+    text-transform: uppercase;
+    transition: transform, box-shadow;
+    transition-duration: .3s;
+}
+
+.project-button:hover {
+    transform: translate(5px, -5px);
+    box-shadow: -10px 10px 25px 0 rgb(0 0 0 / 15%);
+}
