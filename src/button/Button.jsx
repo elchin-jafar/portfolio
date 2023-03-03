@@ -1,9 +1,9 @@
 import React from 'react'
 import classes from "./Button.module.css"
 
-function Button({text}) {
+function Button({text, margin}) {
   return (
-    <button className={classes['project-button']}>{text}</button>
+    <button className={`${classes['project-button']} ${margin ? classes.margin : undefined}`}>{text}</button>
   )
 }
 

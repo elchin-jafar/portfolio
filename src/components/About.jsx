@@ -19,7 +19,7 @@ function About() {
                 <p className={classes['down__paragraph']}>I also like sharing content related to the stuff that I have learned over the years in Web Development so it can help other people of the Dev Community. Feel free to Connect or Follow me on my Linkedin where I post useful content related to Web Development and Programming </p>
 
                 <p className={classes['down__paragraph']}>I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.</p>
-                    <Button text='contact' />
+                    <Button text='contact' margin={true}/>
             </div>
             <div className={classes['my-skills']}>
                 <h3 className={classes['header-3']}>My Skills</h3>
