@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1rem 5rem;
+    box-shadow: 0 10px 100px rgb(0, 0, 0, 10%);
+    background-color: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    /* right: 100%; */
+    z-index: 10;
+    width: calc(100vw - 8rem);
+
+}
+
+.logo {
+    transition: color;
+    transition-duration: 300ms;
+    cursor: pointer;
+}
+
+.logo:hover {
+    color: yellow;
+}
+
+.navlinks a {
+    display: inline-block;
+    font-size: 1.6rem;
+    color: #333;
+    text-decoration: none;
+    transition: color;
+    transition-duration: 300ms;
+    padding: 2.2rem 3rem;
+}
+
+.navlinks a:hover {
+    color: yellow;
+}

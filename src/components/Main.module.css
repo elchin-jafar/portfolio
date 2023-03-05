@@ -3,6 +3,7 @@
         bottom: 20px;
         opacity: 1;
     }
+
     to {
         bottom: 0;
         opacity: 0;
@@ -10,7 +11,7 @@
 }
 
 .main {
-    background: linear-gradient(to right, rgba(245,245,245, .8), rgba(245,245,245,.8)) ,url('../assets/common-bg.svg');
+    background: linear-gradient(to right, rgba(245, 245, 245, .8), rgba(245, 245, 245, .8)), url('../assets/common-bg.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -69,13 +70,13 @@
     padding: 0.5rem;
 }
 
-.socials > svg {
-    transition-property:background;
+.socials>svg {
+    transition-property: background;
     transition-duration: .3s;
     padding: 1rem;
     border-radius: 5px;
 }
 
-.socials > svg:hover {
-    background-color: rgba(250,207,15, .2);
+.socials>svg:hover {
+    background-color: rgba(250, 207, 15, .2);
 }

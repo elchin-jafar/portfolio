@@ -1,15 +1,16 @@
-import About from "./components/About"
-import Main from "./components/Main"
-import "./index.css"
+import About from "./components/About";
+import Main from "./components/Main";
+import Navbar from "./components/Navbar";
+import "./index.css";
 
 function App() {
-
   return (
     <>
-    <Main />
-    <About />
+      <Navbar />
+      <Main />
+      <About />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
