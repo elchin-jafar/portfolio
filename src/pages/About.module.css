@@ -1,6 +1,7 @@
 .about {
     height: 100vh;
     padding: 10rem 30rem;
+    background-color: #fafafa;
 }
 
 .about-me {
@@ -61,7 +62,7 @@
     margin-bottom: 1rem;
 }
 
-.down__paragraph:last-of-type{
+.down__paragraph:last-of-type {
     margin-bottom: 4rem;
 }
 

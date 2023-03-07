@@ -1,9 +1,7 @@
-import classes from "./Header.module.css"
+import classes from "./Header.module.css";
 
-function Header({content}) {
-  return (
-    <h2 className={classes['header-2']}>{content}</h2>
-  )
+function Header({ children }) {
+  return <h2 className={classes["header-2"]}>{children}</h2>;
 }
 
-export default Header
+export default Header;
