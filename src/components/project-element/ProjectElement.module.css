@@ -7,13 +7,25 @@
 }
 
 .image {
+    position: relative;
     margin-right: 5rem;
 }
 
-.image img {
+.laptopImg{
     width: 67rem;
 }
 
+.innerImg {
+    position: absolute;
+    left: 8.6rem;
+    top: 31px;
+    height: 313px;
+    overflow: hidden;
+}
+
+.mainImg {
+    width: 50rem;
+}
 
 
 /* info */
