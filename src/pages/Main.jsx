@@ -1,4 +1,4 @@
-import Button from "../button/Button";
+import Button from "../components/button/Button";
 import classes from "./Main.module.css";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -13,7 +13,7 @@ function Main() {
           Web <br /> Applications that leads to the success of the overall
           product
         </p>
-        <Button text="projects" />
+        <Button large>projects</Button> 
       </div>
       <div className={classes["mouse-animation"]}></div>
       <div className={classes.socials}>

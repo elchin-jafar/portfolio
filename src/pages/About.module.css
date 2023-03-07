@@ -1,6 +1,6 @@
 .about {
     height: 100vh;
-    padding: 30rem;
+    padding: 10rem 30rem;
 }
 
 .about-me {
@@ -59,7 +59,10 @@
     font-size: 1.8rem;
     line-height: 1.7;
     margin-bottom: 1rem;
+}
 
+.down__paragraph:last-of-type{
+    margin-bottom: 4rem;
 }
 
 .my-skills {

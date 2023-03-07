@@ -1,6 +1,7 @@
-import About from "./components/About";
-import Main from "./components/Main";
-import Navbar from "./components/Navbar";
+import About from "./pages/About";
+import Main from "./pages/Main";
+import Navbar from "./pages/Navbar";
+import Projects from "./pages/Projects";
 import "./index.css";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Main />
       <About />
+      <Projects />
     </>
   );
 }

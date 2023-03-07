@@ -1,7 +1,6 @@
 .project-button {
     color: #333;
-    font-size: 2rem;
-    font-weight: 600;
+    font-weight: 700;
     background-color: rgb(250, 207, 15);
     border: 1px solid transparent;
     border-radius: 5px;
@@ -18,8 +17,4 @@
 .project-button:hover {
     transform: translate(5px, -5px);
     box-shadow: -10px 10px 25px 0 rgb(0 0 0 / 15%);
-}
-
-.margin {
-    margin-top: 4rem;
 }

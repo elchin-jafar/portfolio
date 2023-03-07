@@ -23,19 +23,21 @@
 
 .textContent {
     text-align: center;
+    margin-top: 14rem;
+    margin-bottom: 14rem;
 }
 
 .header-2 {
     font-size: 6rem;
     text-align: center;
     text-transform: uppercase;
-
 }
 
 .paragraph {
     text-align: center;
     font-size: 2.2rem;
     line-height: 1.6;
+    margin-bottom: 6rem;
 }
 
 .mouse-animation {
