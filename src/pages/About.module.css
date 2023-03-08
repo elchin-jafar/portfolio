@@ -40,6 +40,8 @@
 
 .about-me__down-side {
     display: flex;
+    max-width: fit-content;
+    margin: 0 auto;
 
 }
 
