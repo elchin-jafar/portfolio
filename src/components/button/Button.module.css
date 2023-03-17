@@ -11,9 +11,10 @@
     line-height: 3rem;
     text-transform: uppercase;
     transition: transform, box-shadow;
-    transition-duration: .3s;
+    transition-duration: .1s;
 }
 
 .project-button:hover {
-    box-shadow: -10px 10px 25px 0 rgb(0 0 0 / 15%);
+    box-shadow: -7px 7px 20px 0 rgb(0 0 0 / 35%);
+    transform: translate(3px, -3px);
 }
