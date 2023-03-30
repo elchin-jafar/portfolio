@@ -12,7 +12,6 @@
     position: fixed;
     left: 0;
     top: 0;
-    /* right: 100%; */
     z-index: 10;
     width: calc(100vw - 8rem);
 

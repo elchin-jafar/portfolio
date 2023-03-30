@@ -15,7 +15,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
     display: grid;
     place-items: center;
     position: relative;
@@ -49,6 +48,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    bottom: 80%;
 }
 
 .mouse-animation::after {
