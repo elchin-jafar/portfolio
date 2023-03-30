@@ -4,7 +4,7 @@ import classes from "./Projects.module.css";
 
 function Projects() {
   return (
-    <section className={classes.projects}>
+    <section id="projects" className={classes.projects}>
       <Header>projects</Header>
       <p className={classes["info-paragraph"]}>
         Here you will find some of the personal and clients projects that I

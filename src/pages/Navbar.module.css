@@ -22,6 +22,8 @@
     transition: color;
     transition-duration: 300ms;
     cursor: pointer;
+    text-decoration: none;
+    color: initial;
 }
 
 .logo:hover {

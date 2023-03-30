@@ -5,12 +5,14 @@ function Navbar() {
   return (
     <>
       <div className={classes.container}>
-        <div className={classes.logo}>Elchin Jafar</div>
+        <a href="#main" className={classes.logo}>
+          Elchin Jafar
+        </a>
         <div className={classes.navlinks}>
-          <a href="/">Home</a>
-          <a href="/">About</a>
-          <a href="/">Projects</a>
-          <a href="/">Contact</a>
+          <a href="#main">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
         </div>
       </div>
     </>

@@ -12,6 +12,10 @@
   /* -webkit-text-size-adjust: 100%; */
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   box-sizing: border-box;
   margin: 0;
