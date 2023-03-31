@@ -21,11 +21,17 @@
     text-align: start;
     box-shadow: rgb(100, 100, 111, 20%) 0 7px 29px 0;
     background-color: #fff;
-    padding: 4rem;
-    width: 70%;
+    max-width: fit-content;
     margin: 0 auto;
     border-radius: 5px;
     position: relative;
+}
+
+.form form {
+    display: block;
+    padding: 4rem;
+    width: 800px;
+    overflow: hidden;
 }
 
 .form form * {
@@ -35,11 +41,11 @@
 .form form input,
 .form form textarea {
     font-family: inherit;
-    margin: 0 auto;
+    margin-left: 0;
     color: #333;
     padding: 2rem;
     margin-bottom: 3rem;
-    width: 95%;
+    width: 100%;
     border: 1px solid #ebebeb;
     font-size: 1.6rem;
     letter-spacing: 0;
