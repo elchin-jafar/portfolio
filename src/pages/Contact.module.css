@@ -86,3 +86,29 @@
 .form button {
     margin-left: auto;
 }
+
+@media only screen and (max-width: 395px) {
+  .contact {
+    padding: 2rem;
+  }
+  .form form {
+    padding: 3rem;
+  }
+  .form form input,
+  .form form textarea {
+    font-family: inherit;
+    margin-left: 0;
+    color: #333;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border: 1px solid #ebebeb;
+    font-size: 1rem;
+    letter-spacing: 0;
+    background-color: #f0f0f0;
+    border-radius: 3px;
+    font-weight: 600;
+}
+.form form textarea {
+    height: 5rem;
+}
+}

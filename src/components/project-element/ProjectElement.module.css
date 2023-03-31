@@ -47,3 +47,24 @@
     line-height: 1.7;
     margin-bottom: 3rem;
 }
+
+@media only screen and (max-width: 395px) {
+    .project-element {
+        display: initial;
+    }
+    .image {
+        margin-right: initial;
+    }
+    .laptopImg {
+        width: 54rem;
+    }
+    .innerImg {
+        position: absolute;
+        width: 40.3rem;
+        top: 16px;
+        left: 46px;
+    }
+    .mainImg {
+        width: 23rem;
+    }
+ }

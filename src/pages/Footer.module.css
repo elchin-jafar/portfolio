@@ -44,3 +44,18 @@
     font-size: 1.2rem;
     text-align: center;
 }
+
+@media only screen and (max-width: 395px) {
+  .footer {
+    padding: 2rem;
+  }
+  .sign {
+    display: none;
+  }
+  .copyright {
+    display: none;
+  }
+  .flex {
+    border-bottom: initial;
+  }
+  }

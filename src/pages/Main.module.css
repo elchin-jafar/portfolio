@@ -84,3 +84,18 @@
 .socials svg:hover {
     background-color: rgba(250, 207, 15, .2);
 }
+
+@media only screen and (max-width: 395px) {
+  .main {
+    padding: 0 2rem;
+  }
+  .header-2 {
+    font-size: 4rem;
+  }
+  .socials {
+    display: none;
+  }
+  .mouse-animation {
+    display: none;
+  }
+}

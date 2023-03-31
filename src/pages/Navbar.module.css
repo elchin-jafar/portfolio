@@ -39,16 +39,19 @@
     padding: 2.2rem 3rem;
 }
 
+.hamburger {
+    display: none;
+}
+
 .navlinks a:hover {
     color: yellow;
 }
 
 @media only screen and (max-width: 395px) {
-    .container {
-        font-size: 1rem;
-        padding: 1rem;
-    }
     .navlinks {
         display: none;
+    }
+    .hamburger {
+        display: initial;
     }
 }

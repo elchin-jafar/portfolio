@@ -12,3 +12,9 @@
     max-width: 82rem;
     margin-bottom: 15rem;
 }
+
+@media only screen and (max-width: 395px) {
+    .projects {
+        padding: 2rem;
+    }
+ }

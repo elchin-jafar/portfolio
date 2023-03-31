@@ -75,3 +75,17 @@
 .skills {
     max-width: 60rem;
 }
+
+@media only screen and (max-width: 395px) {
+   .about {
+    padding: 2rem;
+   }
+   .about-me__down-side {
+    max-width: initial;
+    flex-direction: column;
+   }
+   .my-skills {
+    margin-left: initial;
+    margin-top: 3rem;
+   }
+}
