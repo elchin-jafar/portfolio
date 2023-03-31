@@ -5,7 +5,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 
 function Main() {
   return (
-    <section className={classes.main}>
+    <section id="main" className={classes.main}>
       <div className={classes.textContent}>
         <h2 className={classes["header-2"]}>Hey, I am Elchin Jafar</h2>
         <p className={classes.paragraph}>
@@ -13,12 +13,18 @@ function Main() {
           Web <br /> Applications that leads to the success of the overall
           product
         </p>
-        <Button large>projects</Button> 
+        <a href="#projects">
+          <Button large>projects</Button>
+        </a>
       </div>
       <div className={classes["mouse-animation"]}></div>
       <div className={classes.socials}>
-        <LinkedInIcon sx={{ fontSize: "5rem" }} />
-        <GitHubIcon sx={{ fontSize: "5rem" }} />
+        <a href="https://www.linkedin.com/in/elchin-jafarli/" target="_blank">
+          <LinkedInIcon sx={{ fontSize: "5rem" }} />
+        </a>
+        <a href="https://github.com/elchin-jafar" target="_blank">
+          <GitHubIcon sx={{ fontSize: "5rem" }} />
+        </a>
       </div>
     </section>
   );

@@ -4,7 +4,7 @@ import classes from "./Contact.module.css";
 
 function Contact() {
   return (
-    <section className={classes.contact}>
+    <section id="contact" className={classes.contact}>
       <Header>contact</Header>
       <p className={classes["info-paragraph"]}>
         Feel free to Contact me by submitting the form below and I will get back

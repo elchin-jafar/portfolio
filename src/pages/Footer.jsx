@@ -19,8 +19,15 @@ function Footer() {
         <div className={classes.social}>
           <h2>Social</h2>
           <div className={classes.icons}>
-            <LinkedInIcon />
-            <GitHubIcon />
+            <a
+              href="https://www.linkedin.com/in/elchin-jafarli/"
+              target="_blank"
+            >
+              <LinkedInIcon />
+            </a>
+            <a href="https://github.com/elchin-jafar" target="_blank">
+              <GitHubIcon />
+            </a>
           </div>
         </div>
       </div>

@@ -7,7 +7,7 @@ import classes from "./About.module.css";
 function About() {
   return (
     <>
-      <section className={classes.about}>
+      <section id="about" className={classes.about}>
         <div className={classes["about-me"]}>
           <Header>about me</Header>
           <p className={classes.paragraph}>
@@ -37,7 +37,9 @@ function About() {
               grow. If you have a good opportunity that matches my skills and
               experience then don't hesitate to contact me.
             </p>
-            <Button small>contact</Button>
+            <a href="#contact">
+              <Button small>contact</Button>
+            </a>
           </div>
           <div className={classes["my-skills"]}>
             <h3 className={classes["header-3"]}>My Skills</h3>

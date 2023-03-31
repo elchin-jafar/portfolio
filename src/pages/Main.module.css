@@ -73,13 +73,14 @@
     padding: 0.5rem;
 }
 
-.socials>svg {
+.socials svg {
     transition-property: background;
     transition-duration: .3s;
     padding: 1rem;
     border-radius: 5px;
+    color: initial;
 }
 
-.socials>svg:hover {
+.socials svg:hover {
     background-color: rgba(250, 207, 15, .2);
 }
