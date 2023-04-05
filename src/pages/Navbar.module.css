@@ -48,6 +48,30 @@
 }
 
 @media only screen and (max-width: 395px) {
+    .container {
+        position: relative;
+    }
+    .responsiveMenuContainer {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: #fff;
+        width: 100%;
+    }
+    .responsiveMenu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        /* width: 100%; */
+        padding-right: 7rem;
+    }
+
+    .responsiveMenu a {
+        text-decoration: none;
+        color: initial;
+        padding: 2rem 0;
+    }
+
     .navlinks {
         display: none;
     }

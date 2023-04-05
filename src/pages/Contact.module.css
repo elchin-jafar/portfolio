@@ -93,6 +93,7 @@
   }
   .form form {
     padding: 3rem;
+    width: 80vw;
   }
   .form form input,
   .form form textarea {
@@ -107,6 +108,7 @@
     background-color: #f0f0f0;
     border-radius: 3px;
     font-weight: 600;
+    font-size: 1.7rem;
 }
 .form form textarea {
     height: 5rem;
