@@ -25,10 +25,6 @@
     color: initial;
 }
 
-.logo:hover {
-    color: yellow;
-}
-
 .navlinks a {
     display: inline-block;
     font-size: 1.6rem;

@@ -20,7 +20,7 @@ function Navbar() {
           Elchin Jafar
         </a>
         <div className={classes.hamburger} onClick={() => setIsMenuOpen(prevState => !prevState)}>
-          <Hamburger direction="left" size={20} />
+          <Hamburger direction="left" size={20} toggled={isMenuOpen} />
         </div>
         <div className={classes.navlinks}>
           <a href="#main">Home</a>
