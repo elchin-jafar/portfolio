@@ -9,7 +9,7 @@
 
 .image {
     position: relative;
-    margin-right: 5rem;;
+    margin-right: 5rem;
 }
 
 .laptopImg {
@@ -48,6 +48,34 @@
     margin-bottom: 3rem;
 }
 
+@media only screen and (max-width: 1200px) {
+    .project-element {
+        flex-direction: column;
+    }
+}
+
+
+@media only screen and (max-width: 720px) {
+    .project-element {
+        display: initial;
+    }
+    .image {
+        margin-right: initial;
+    }
+    .laptopImg {
+        width: 54rem;
+    }
+    .innerImg {
+        position: absolute;
+        width: 40.5rem;
+        top: 25px;
+        left: 68px;
+    }
+    .mainImg {
+        width: 40.8rem;
+    }
+ }
+
 @media only screen and (max-width: 395px) {
     .project-element {
         display: initial;
@@ -68,3 +96,5 @@
         width: 40.8rem;
     }
  }
+
+

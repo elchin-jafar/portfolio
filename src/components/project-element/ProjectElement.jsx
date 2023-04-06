@@ -7,7 +7,7 @@ function ProjectElement({img, title,info}) {
   return (
     <section className={classes['project-element']}>
         <div className={classes.image}>
-            <img className={classes.laptopImg} src={laptopImg} alt="" />
+            <img className={classes.laptopImg} src={laptopImg} alt="laptopImg" />
             <div className={classes.innerImg}>
               <img className={classes.mainImg} src={flagAppImg} alt="" />
             </div>

@@ -76,7 +76,17 @@
     max-width: 60rem;
 }
 
-@media only screen and (max-width: 395px) {
+@media only screen and (max-width: 1200px) {
+    .about-me__down-side {
+        flex-direction: column;
+    }
+    .my-skills {
+        margin-left: 0;
+        margin-top: 10rem;
+    }
+}
+
+@media only screen and (max-width: 720px) {
    .about {
     padding: 2rem;
    }
