@@ -2,15 +2,13 @@ import classes from "./ProjectElement.module.css"
 import Button from "../button/Button"
 import laptopImg from "../../assets/laptop.jpg"
 import flagAppImg from "../../assets/flagApp.png"
+import sok from "../../assets/laptop-photoshop.png"
 
 function ProjectElement({img, title,info}) {
   return (
     <section className={classes['project-element']}>
         <div className={classes.image}>
-            <img className={classes.laptopImg} src={laptopImg} alt="laptopImg" />
-            <div className={classes.innerImg}>
-              <img className={classes.mainImg} src={flagAppImg} alt="" />
-            </div>
+          <img src={sok} alt="" />
         </div>
         <div className={classes.info}>
             <h2 className={classes.header}>Flag App</h2>

@@ -3,30 +3,17 @@
     max-width: fit-content;
     text-align: center;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-.image {
+.image img {
     position: relative;
     margin-right: 5rem;
+    width: 60rem;
 }
 
-.laptopImg {
-    width: 67rem;
-}
-
-.innerImg {
-    position: absolute;
-    left: 8.6rem;
-    top: 31px;
-    height: 78.5%;
-    overflow: hidden;
-}
-
-.mainImg {
-    width: 50rem;
-}
 
 
 /* info */
@@ -48,53 +35,56 @@
     margin-bottom: 3rem;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 1200px) {
     .project-element {
         flex-direction: column;
     }
+    .image img {
+        width: 53rem;
+    }
 }
 
-
-@media only screen and (max-width: 720px) {
+@media only screen and (min-width: 992px) {
     .project-element {
-        display: initial;
+        flex-direction: column;
     }
-    .image {
-        margin-right: initial;
+    .image img {
+        width: 53rem;
     }
-    .laptopImg {
-        width: 54rem;
-    }
-    .innerImg {
-        position: absolute;
-        width: 40.5rem;
-        top: 25px;
-        left: 68px;
-    }
-    .mainImg {
-        width: 40.8rem;
-    }
- }
+}
 
-@media only screen and (max-width: 395px) {
+@media only screen and (min-width: 768px) {
     .project-element {
-        display: initial;
+        flex-direction: column;
     }
-    .image {
-        margin-right: initial;
+    .image img {
+        width: 43rem;
     }
-    .laptopImg {
-        width: 54rem;
-    }
-    .innerImg {
-        position: absolute;
-        width: 40.3rem;
-        top: 16px;
-        left: 46px;
-    }
-    .mainImg {
-        width: 40.8rem;
-    }
- }
+}
 
+@media only screen and (min-width: 576px) {
+    .project-element {
+        flex-direction: column;
+    }
+    .image img {
+        width: 40rem;
+    }
+}
 
+@media only screen and (min-width: 470px) {
+    .project-element {
+        flex-direction: column;
+    }
+    .image img {
+        width: 35rem;
+    }
+}
+
+@media only screen and (min-width: 270px) {
+    .project-element {
+        flex-direction: column;
+    }
+    .image img {
+        width: 35rem;
+    }
+}
