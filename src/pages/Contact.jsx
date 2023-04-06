@@ -15,7 +15,7 @@ function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    if(nameRef.current.value.trim() === "" && emailRef.current.value.trim() === "" && messageRef.current.value.trim() === "") {
+    if(nameRef.current.value.trim() === "" || emailRef.current.value.trim() === "" || messageRef.current.value.trim() === "") {
       console.log('bruh!!');
       messageApi.open({
         type: 'error',
