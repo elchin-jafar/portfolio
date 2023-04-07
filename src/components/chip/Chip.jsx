@@ -1,10 +1,8 @@
-import React from 'react'
-import classes from "./Chip.module.css"
+import React from "react";
+import classes from "./Chip.module.css";
 
-function Chip({text}) {
-  return (
-    <div className={classes.chip}>{text}</div>
-  )
+function Chip({ text }) {
+  return <div className={classes.chip}>{text}</div>;
 }
 
-export default Chip
+export default Chip;

@@ -1,90 +1,94 @@
 .contact {
-    text-align: center;
-    background: linear-gradient(to right, rgba(245, 245, 245, .8), rgba(245, 245, 245, .8)), url('../assets/common-bg.svg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 10rem;
+  text-align: center;
+  background: linear-gradient(
+      to right,
+      rgba(245, 245, 245, 0.8),
+      rgba(245, 245, 245, 0.8)
+    ),
+    url("../assets/common-bg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2rem;
 }
 
 .info-paragraph {
-    color: #333;
-    font-size: 2rem;
-    font-weight: 500;
-    max-width: 80rem;
-    line-height: 1.6;
-    margin: 0 auto;
-    margin-bottom: 7rem;
+  color: #333;
+  font-size: 2rem;
+  font-weight: 500;
+  max-width: 80rem;
+  line-height: 1.6;
+  margin: 0 auto;
+  margin-bottom: 7rem;
 }
 
 .form {
-    text-align: start;
-    box-shadow: rgb(100, 100, 111, 20%) 0 7px 29px 0;
-    background-color: #fff;
-    max-width: fit-content;
-    margin: 0 auto;
-    border-radius: 5px;
-    position: relative;
+  text-align: start;
+  box-shadow: rgb(100, 100, 111, 20%) 0 7px 29px 0;
+  background-color: #fff;
+  max-width: fit-content;
+  margin: 0 auto;
+  border-radius: 5px;
+  position: relative;
 }
 
 .form form {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    width: 50vw;
-    padding: 4rem;
-    transition: width;
-    transition-duration: 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 50vw;
+  padding: 4rem;
+  transition: width;
+  transition-duration: 0.2s;
 }
 
 @media only screen and (min-width: 1920px) {
-    .form form {
-        width: 40vw;
-    }
+  .form form {
+    width: 40vw;
+  }
 }
 
 @media only screen and (min-width: 2150px) {
-    .form form {
-        width: 30vw;
-    }
+  .form form {
+    width: 30vw;
+  }
 }
 
 .form form input,
 .form form textarea {
-    font-family: inherit;
-    margin-left: 0;
-    color: #333;
-    padding: 2rem;
-    margin-bottom: 3rem;
-    border: 1px solid #ebebeb;
-    font-size: 1.6rem;
-    letter-spacing: 0;
-    background-color: #f0f0f0;
-    border-radius: 5px;
-    font-weight: 600;
+  font-family: inherit;
+  margin-left: 0;
+  color: #333;
+  padding: 2rem;
+  margin-bottom: 3rem;
+  border: 1px solid #ebebeb;
+  font-size: 1.6rem;
+  letter-spacing: 0;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  font-weight: 600;
 }
 
 .form form input::placeholder,
 .form form textarea::placeholder {
-    opacity: .6;
+  opacity: 0.6;
 }
 
 .form form input:focus,
 .form form textarea:focus {
-    outline: 1px solid #c8c8c8;
+  outline: 1px solid #c8c8c8;
 }
 
-
 .form form label {
-    color: #666;
-    font-size: 1.6rem;
-    letter-spacing: 1px;
-    font-weight: 700;
-    margin-bottom: 1rem;
+  color: #666;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin-bottom: 1rem;
 }
 
 .form button {
-    margin-left: auto;
+  margin-left: auto;
 }
 
 @media only screen and (max-width: 395px) {
@@ -109,8 +113,8 @@
     border-radius: 3px;
     font-weight: 600;
     font-size: 1.7rem;
-}
-.form form textarea {
+  }
+  .form form textarea {
     height: 5rem;
-}
+  }
 }

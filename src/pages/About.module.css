@@ -1,101 +1,101 @@
 .about {
-    padding: 10rem 10rem;
-    background-color: #fafafa;
+  padding: 10rem 10rem;
+  background-color: #fafafa;
 }
 
 .about-me {
-    text-align: center;
-    margin-bottom: 8rem;
+  text-align: center;
+  margin-bottom: 8rem;
 }
 
 .header-2 {
-    font-size: 3.7rem;
-    font-weight: 700;
-    line-height: 5.6rem;
-    letter-spacing: 3px;
-    position: relative;
+  font-size: 3.7rem;
+  font-weight: 700;
+  line-height: 5.6rem;
+  letter-spacing: 3px;
+  position: relative;
 }
 
 .header-2::before {
-    content: "";
-    width: 3rem;
-    height: 5px;
-    background-color: rgb(250, 207, 15);
-    position: absolute;
-    border-radius: 5px;
-    left: 50%;
-    top: calc(100% + 1.5rem);
-    transform: translateX(-50%);
+  content: "";
+  width: 3rem;
+  height: 5px;
+  background-color: rgb(250, 207, 15);
+  position: absolute;
+  border-radius: 5px;
+  left: 50%;
+  top: calc(100% + 1.5rem);
+  transform: translateX(-50%);
 }
 
 .paragraph {
-    font-size: 2rem;
-    font-weight: 500;
-    color: #555;
-    line-height: 1.6;
-    max-width: 80rem;
-    margin: auto;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #555;
+  line-height: 1.6;
+  max-width: 80rem;
+  margin: auto;
 }
 
 .about-me__down-side {
-    display: flex;
-    max-width: fit-content;
-    margin: 0 auto;
-
+  display: flex;
+  max-width: fit-content;
+  margin: 0 auto;
 }
 
 .get-to-know-me {
-    flex: 1;
+  flex: 1;
 }
 
 .header-3 {
-    font-size: 2.8rem;
-    font-weight: 700;
-    margin-bottom: 3rem;
-    line-height: 3.9rem;
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  line-height: 3.9rem;
 }
 
 .down__paragraph {
-    color: #666;
-    max-width: 60rem;
-    font-size: 1.8rem;
-    line-height: 1.7;
-    margin-bottom: 1rem;
+  color: #666;
+  max-width: 60rem;
+  font-size: 1.8rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
 }
 
 .down__paragraph:last-of-type {
-    margin-bottom: 4rem;
+  margin-bottom: 4rem;
 }
 
 .my-skills {
-    flex: 1;
-    margin-left: 10rem;
+  flex: 1;
+  margin-left: 10rem;
 }
 
 .skills {
-    max-width: 60rem;
+  max-width: 60rem;
 }
 
 @media only screen and (max-width: 1200px) {
-    .about-me__down-side {
-        flex-direction: column;
-    }
-    .my-skills {
-        margin-left: 0;
-        margin-top: 10rem;
-    }
+  .about-me__down-side {
+    flex-direction: column;
+  }
+  .my-skills {
+    margin-left: 0;
+    margin-top: 10rem;
+  }
 }
 
 @media only screen and (max-width: 720px) {
-   .about {
+  .about {
     padding: 2rem;
-   }
-   .about-me__down-side {
+    padding-top: 8rem;
+  }
+  .about-me__down-side {
     max-width: initial;
     flex-direction: column;
-   }
-   .my-skills {
+  }
+  .my-skills {
     margin-left: initial;
     margin-top: 3rem;
-   }
+  }
 }

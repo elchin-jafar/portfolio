@@ -1,20 +1,21 @@
 .projects {
-    text-align: center;
-    padding: 10rem;
+  text-align: center;
+  padding: 2rem;
 }
 
 .info-paragraph {
-    margin: 0 auto;
-    color: #555;
-    font-size: 2rem;
-    font-weight: 500;
-    line-height: 1.6;
-    max-width: 82rem;
-    margin-bottom: 15rem;
+  margin: 0 auto;
+  color: #555;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.6;
+  max-width: 82rem;
+  margin-bottom: 15rem;
 }
 
 @media only screen and (max-width: 395px) {
-    .projects {
-        padding: 2rem;
-    }
- }
+  .projects {
+    padding: 2rem;
+    padding-top: 8rem;
+  }
+}

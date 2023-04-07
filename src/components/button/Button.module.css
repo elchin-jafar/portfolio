@@ -1,20 +1,20 @@
 .project-button {
-    color: #333;
-    font-weight: 700;
-    background-color: rgb(250, 207, 15);
-    border: 1px solid transparent;
-    border-radius: 5px;
-    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
-    cursor: pointer;
-    padding: 1.5rem 8rem;
-    letter-spacing: 1px;
-    line-height: 3rem;
-    text-transform: uppercase;
-    transition: transform, box-shadow;
-    transition-duration: .1s;
+  color: #333;
+  font-weight: 700;
+  background-color: rgb(250, 207, 15);
+  border: 1px solid transparent;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+  cursor: pointer;
+  padding: 1.5rem 8rem;
+  letter-spacing: 1px;
+  line-height: 3rem;
+  text-transform: uppercase;
+  transition: transform, box-shadow;
+  transition-duration: 0.1s;
 }
 
 .project-button:hover {
-    box-shadow: -7px 7px 20px 0 rgb(0 0 0 / 35%);
-    transform: translate(3px, -3px);
+  box-shadow: -7px 7px 20px 0 rgb(0 0 0 / 35%);
+  transform: translate(3px, -3px);
 }

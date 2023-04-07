@@ -1,81 +1,80 @@
 .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 1.8rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    padding: 1rem 5rem;
-    box-shadow: 0 10px 100px rgb(0, 0, 0, 10%);
-    background-color: #fff;
-    position: fixed;
-    left: 0;
-    top: 0;
-    z-index: 10;
-    width: calc(100vw - 8rem);
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 1rem 5rem;
+  box-shadow: 0 10px 100px rgb(0, 0, 0, 10%);
+  background-color: #fff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  width: calc(100vw - 8rem);
 }
 
 .logo {
-    transition: color;
-    transition-duration: 300ms;
-    cursor: pointer;
-    text-decoration: none;
-    color: initial;
+  transition: color;
+  transition-duration: 300ms;
+  cursor: pointer;
+  text-decoration: none;
+  color: initial;
 }
 
 .navlinks a {
-    display: inline-block;
-    font-size: 1.6rem;
-    color: #333;
-    text-decoration: none;
-    transition: color;
-    transition-duration: 300ms;
-    padding: 2.2rem 3rem;
+  display: inline-block;
+  font-size: 1.6rem;
+  color: #333;
+  text-decoration: none;
+  transition: color;
+  transition-duration: 300ms;
+  padding: 2.2rem 3rem;
 }
 
 .hamburger {
-    display: none;
+  display: none;
 }
 
 .navlinks a:hover {
-    color: yellow;
+  color: yellow;
 }
 
 @media only screen and (max-width: 720px) {
-    .responsiveMenuContainer {
-        position: absolute;
-        top: 100%;
-        right: 0;
-        background-color: #fff;
-        width: 100%;
-        box-shadow: 0 10px 10px rgb(0, 0, 0, 10%);
-        border-top: 1px solid rgb(180, 178, 178);
-        transition: opacity 1s ease-out;
-    }
-    .responsiveMenu {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        padding-right: 7rem;
-    }
-    
-    .responsiveMenu a {
-        display: inline-block;
-        text-align: end;
-        font-size: 2rem;
-        text-decoration: none;
-        color: initial;
-        padding: 2.5rem 0;
-    }
+  .responsiveMenuContainer {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 0 10px 10px rgb(0, 0, 0, 10%);
+    border-top: 1px solid rgb(180, 178, 178);
+    transition: opacity 1s ease-out;
+  }
+  .responsiveMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 7rem;
+  }
 
-    .navlinks {
-        display: none;
-    }
-    .hamburger {
-        display: initial;
-    }
+  .responsiveMenu a {
+    display: inline-block;
+    text-align: end;
+    font-size: 2rem;
+    text-decoration: none;
+    color: initial;
+    padding: 2.5rem 0;
+  }
+
+  .navlinks {
+    display: none;
+  }
+  .hamburger {
+    display: initial;
+  }
 }
 
 /* @media only screen and (max-width: 395px) {

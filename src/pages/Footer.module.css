@@ -1,48 +1,48 @@
 .footer {
-    background-color: #000;
-    color: #fff;
-    padding: 10rem;
-    padding-bottom: 0;
+  background-color: #000;
+  color: #fff;
+  padding: 10rem;
+  padding-bottom: 0;
 }
 
 .flex {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid #444;
-    padding-bottom: 5rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #444;
+  padding-bottom: 5rem;
 }
 
 .sign {
-    width: 40%;
-    max-width: 50rem;
+  width: 40%;
+  max-width: 50rem;
 }
 
 .footer h2 {
-    font-size: 2.2rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .sign__p {
-    margin-top: 2rem;
-    color: #eee;
-    font-size: 1.5rem;
-    line-height: 1.7;
+  margin-top: 2rem;
+  color: #eee;
+  font-size: 1.5rem;
+  line-height: 1.7;
 }
 
 .icons svg {
-    margin-right: 1rem;
-    margin-top: 1rem;
-    font-size: 3rem;
-    color: #fff;
-    cursor: pointer;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  font-size: 3rem;
+  color: #fff;
+  cursor: pointer;
 }
 
 .copyright {
-    padding: 4rem 0;
-    color: #eee;
-    font-size: 1.2rem;
-    text-align: center;
+  padding: 4rem 0;
+  color: #eee;
+  font-size: 1.2rem;
+  text-align: center;
 }
 
 @media only screen and (max-width: 395px) {
@@ -58,4 +58,4 @@
   .flex {
     border-bottom: initial;
   }
-  }
+}
