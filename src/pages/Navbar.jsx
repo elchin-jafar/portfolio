@@ -42,7 +42,7 @@ function Navbar() {
         <Transition
           nodeRef={nodeRef}
           in={isMenuOpen}
-          timeout={1000}
+          timeout={duration}
           mountOnEnter
           unmountOnExit
         >
