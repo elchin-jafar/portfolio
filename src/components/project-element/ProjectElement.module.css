@@ -62,6 +62,7 @@
   .project-element {
     flex-direction: row;
   }
+
   .image img {
     margin-right: 5rem;
     width: 60rem;

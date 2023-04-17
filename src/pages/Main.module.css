@@ -11,11 +11,9 @@
 }
 
 .main {
-  background: linear-gradient(
-      to right,
+  background: linear-gradient(to right,
       rgba(245, 245, 245, 0.8),
-      rgba(245, 245, 245, 0.8)
-    ),
+      rgba(245, 245, 245, 0.8)),
     url("../assets/common-bg.svg");
   background-position: center;
   background-repeat: no-repeat;
@@ -94,12 +92,15 @@
   .main {
     padding: 0 2rem;
   }
+
   .header-2 {
     font-size: 4rem;
   }
+
   .socials {
     display: none;
   }
+
   .mouse-animation {
     display: none;
   }

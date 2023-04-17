@@ -79,6 +79,7 @@
   .about-me__down-side {
     flex-direction: column;
   }
+
   .my-skills {
     margin-left: 0;
     margin-top: 10rem;
@@ -90,10 +91,12 @@
     padding: 2rem;
     padding-top: 8rem;
   }
+
   .about-me__down-side {
     max-width: initial;
     flex-direction: column;
   }
+
   .my-skills {
     margin-left: initial;
     margin-top: 3rem;

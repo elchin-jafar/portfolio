@@ -1,10 +1,8 @@
 .contact {
   text-align: center;
-  background: linear-gradient(
-      to right,
+  background: linear-gradient(to right,
       rgba(245, 245, 245, 0.8),
-      rgba(245, 245, 245, 0.8)
-    ),
+      rgba(245, 245, 245, 0.8)),
     url("../assets/common-bg.svg");
   background-position: center;
   background-repeat: no-repeat;
@@ -95,10 +93,12 @@
   .contact {
     padding: 2rem;
   }
+
   .form form {
     padding: 3rem;
     width: 80vw;
   }
+
   .form form input,
   .form form textarea {
     font-family: inherit;
@@ -114,6 +114,7 @@
     font-weight: 600;
     font-size: 1.7rem;
   }
+
   .form form textarea {
     height: 5rem;
   }

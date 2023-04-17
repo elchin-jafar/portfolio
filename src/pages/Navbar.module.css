@@ -53,6 +53,7 @@
     border-top: 1px solid rgb(180, 178, 178);
     transition: opacity 1s ease-out;
   }
+
   .responsiveMenu {
     display: flex;
     flex-direction: column;
@@ -72,6 +73,7 @@
   .navlinks {
     display: none;
   }
+
   .hamburger {
     display: initial;
   }
