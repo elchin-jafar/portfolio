@@ -1,5 +1,6 @@
 .project-element {
   margin: 0 auto;
+  margin-top: 10rem;
   max-width: fit-content;
   text-align: center;
   display: flex;
