@@ -32,6 +32,7 @@
   max-width: 60rem;
   line-height: 1.7;
   margin-bottom: 3rem;
+  white-space: pre-line;
 }
 
 @media only screen and (min-width: 395px) {

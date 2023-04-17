@@ -15,17 +15,13 @@ function Projects() {
       <ProjectElement
         img={flagnation}
         title="Flag App"
-        info="Dopefolio is a successful Open-Source project that I created which
-          have been featured on some of the biggest tech sites like CSS-Tricks,
-          Hostinger, etc & used by thousands of developers globally"
+        info="Created simple 2 page flag app. Used Country API to get data about countries. "
         link="https://elchin-jafar-flag-app.netlify.app"
       />
       <ProjectElement
         img={big}
         title="Instagram Clone"
-        info="Dopefolio is a successful Open-Source project that I created which
-          have been featured on some of the biggest tech sites like CSS-Tricks,
-          Hostinger, etc & used by thousands of developers globally"
+        info={`I use dummyjson to apply auth on login page. For images unsplash api used. You can use these credentials below to login:\nusername: kminchelle, \npassword: 0lelplR`}
         link="https://instagram-clone-vite.netlify.app"
       />
     </section>
