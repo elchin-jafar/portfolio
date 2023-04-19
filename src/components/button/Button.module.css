@@ -36,3 +36,12 @@
   box-shadow: -7px 7px 20px 0 rgb(0 0 0 / 35%);
   transform: translate(3px, -3px);
 }
+
+@media only screen and (max-width: 720px) {
+  .project-button {
+    width: 100%;
+  }
+  .outlined {
+    width: 100%;
+  }
+}
