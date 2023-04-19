@@ -17,12 +17,14 @@ function Projects() {
         title="Flag App"
         info="Created simple 2 page flag app. Used Country API to get data about countries. "
         link="https://elchin-jafar-flag-app.netlify.app"
+        codeLink="https://github.com/elchin-jafar/flag"
       />
       <ProjectElement
         img={big}
         title="Instagram Clone"
         info={`I use dummyjson to apply auth on login page. For images unsplash api used. You can use these credentials below to login:\nusername: kminchelle, \npassword: 0lelplR`}
         link="https://instagram-clone-vite.netlify.app"
+        codeLink="https://github.com/elchin-jafar/ig-clone-vite"
       />
     </section>
   );
