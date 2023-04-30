@@ -41,6 +41,10 @@
 }
 
 @media only screen and (min-width: 1920px) {
+  .contact {
+    padding-top: 6rem;
+  }
+
   .form form {
     width: 40vw;
   }
