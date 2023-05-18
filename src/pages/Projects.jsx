@@ -23,8 +23,8 @@ function Projects() {
         img={big}
         title="Instagram Clone"
         info={`I use dummyjson to apply auth on login page. For images unsplash api used. You can use these credentials below to login:\nusername: kminchelle, \npassword: 0lelplR`}
-        link="https://instagram-clone-vite.netlify.app"
-        codeLink="https://github.com/elchin-jafar/ig-clone-vite"
+        link="https://ig-unsplash.netlify.app"
+        codeLink="https://github.com/elchin-jafar/Instagram-Unsplash"
       />
     </section>
   );
